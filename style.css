@@ -1,0 +1,223 @@
+.hero-container {
+  position: relative;
+  overflow: hidden; }
+  .hero-container:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.2) 0%, transparent 100%);
+    z-index: -1; }
+  .hero-container .hero-background {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    overflow: hidden;
+    z-index: -2;
+    text-align: center; }
+    .hero-container .hero-background img {
+      width: 100%;
+      height: 100%;
+      -o-object-fit: cover;
+      object-fit: cover; }
+  .hero-container .hero-navbar .navbar-brand:hover .bi-symbol {
+    background-color: #4C2E8C; }
+  .hero-container .hero-navbar .navbar-brand .bi-symbol, .hero-container .hero-navbar .navbar-brand span {
+    vertical-align: middle; }
+  .hero-container .hero-navbar .navbar-brand .bi-symbol {
+    font-size: 22px;
+    transition: .3s;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: #4F37A6; }
+  .hero-container .hero-navbar .navbar-brand span {
+    padding-left: 4px;
+    font-weight: 700;
+    font-size: 16px; }
+  .hero-container .hero-navbar .navbar-toggler {
+    border: 0px;
+    padding: 8px 12px; }
+  @media (max-width: 991px) {
+    .hero-container .hero-navbar .navbar-collapse {
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 100vw;
+      padding: 0px;
+      overflow-y: scroll;
+      background-color: black; } }
+  .hero-container .hero-navbar .navbar-collapse .collapse-inner {
+    display: flex;
+    width: 100%; }
+    @media (max-width: 991px) {
+      .hero-container .hero-navbar .navbar-collapse .collapse-inner {
+        padding: 56px 24px 24px 24px; } }
+  @media (min-width: 992px) {
+    .hero-container .hero-navbar .navbar-collapse .navbar-nav {
+      margin-left: auto; } }
+  @media (max-width: 991px) {
+    .hero-container .hero-navbar .navbar-collapse .navbar-nav {
+      margin: 0px auto;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .hero-container .hero-navbar .navbar-collapse .navbar-nav .btn-upload {
+      margin-top: 16px;
+      min-width: 200px; } }
+  @media (min-width: 992px) {
+    .hero-container .hero-navbar .navbar-collapse .navbar-nav .btn-upload {
+      margin-left: 16px; } }
+  @media (min-width: 992px) {
+    .hero-container .hero-navbar .navbar-collapse .navbar-brand,
+    .hero-container .hero-navbar .navbar-collapse .navbar-collapse {
+      display: none; } }
+  .hero-container .hero-navbar .navbar-collapse .navbar-brand {
+    position: absolute;
+    left: 16px;
+    top: 8px; }
+  .hero-container .hero-navbar .navbar-collapse .navbar-toggler {
+    position: absolute;
+    right: 16px;
+    top: 13px; }
+  .hero-container .hero-jumbotron {
+    background-color: transparent;
+    margin-bottom: 0px;
+    padding: 120px 0px 200px 0px; }
+    @media (max-width: 757px) {
+      .hero-container .hero-jumbotron {
+        padding: 48px 0px 88px 0px; } }
+    .hero-container .hero-jumbotron .container {
+      max-width: 720px; }
+    .hero-container .hero-jumbotron .title {
+      color: white;
+      font-weight: 700;
+      margin-bottom: 40px; }
+    .hero-container .hero-jumbotron .hero-search {
+      display: flex; }
+      .hero-container .hero-jumbotron .hero-search .form-control {
+        border: 0px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px; }
+      .hero-container .hero-jumbotron .hero-search .btn-search {
+        border-top-left-radius: 0px;
+        border-bottom-left-radius: 0px;
+        background-color: white;
+        color: #B0BEC5; }
+        .hero-container .hero-jumbotron .hero-search .btn-search:hover {
+          color: #4F37A6; }
+    .hero-container .hero-jumbotron ul.list-search-tags {
+      list-style: none;
+      padding: 0px;
+      margin: 8px 0px 0px 0px;
+      font-size: 14px; }
+      .hero-container .hero-jumbotron ul.list-search-tags li {
+        display: inline-block;
+        margin-right: 2px; }
+        .hero-container .hero-jumbotron ul.list-search-tags li.list-title {
+          color: white; }
+        .hero-container .hero-jumbotron ul.list-search-tags li.tag-item:not(:last-child) a:after {
+          content: ', ';
+          color: white;
+          display: inline; }
+        .hero-container .hero-jumbotron ul.list-search-tags li.tag-item a {
+          opacity: .64;
+          color: white; }
+          .hero-container .hero-jumbotron ul.list-search-tags li.tag-item a:hover {
+            opacity: 1;
+            text-decoration: none; }
+
+.container-photos {
+  padding-top: 40px;
+  padding-bottom: 120px; }
+  @media (max-width: 757px) {
+    .container-photos {
+      display: block;
+      padding: 16px 0px 40px 0px; } }
+  .container-photos .photos-column {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px; }
+    .container-photos .photos-column a {
+      display: block; }
+      .container-photos .photos-column a:hover {
+        text-decoration: none; }
+    .container-photos .photos-column figure.photo-item {
+      position: relative; }
+      .container-photos .photos-column figure.photo-item:before {
+        opacity: 0;
+        transition: opacity .2s;
+        content: "";
+        display: block;
+        position: absolute;
+        bottom: 0px;
+        pointer-events: none;
+        width: 100%;
+        height: 100px;
+        background: #000014;
+        background: -moz-linear-gradient(0deg, rgba(0, 0, 20, 0.48) 0%, rgba(0, 0, 20, 0) 75%);
+        background: -webkit-linear-gradient(0deg, rgba(0, 0, 20, 0.48) 0%, rgba(0, 0, 20, 0) 75%);
+        background: linear-gradient(0deg, rgba(0, 0, 20, 0.48) 0%, rgba(0, 0, 20, 0) 75%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000014",endColorstr="#000014",GradientType=1); }
+        @media (max-width: 757px) {
+          .container-photos .photos-column figure.photo-item:before {
+            opacity: 1; } }
+      .container-photos .photos-column figure.photo-item a.photo-item-link {
+        display: block; }
+        .container-photos .photos-column figure.photo-item a.photo-item-link img {
+          width: 100%; }
+      .container-photos .photos-column figure.photo-item a.photo-item-photographer {
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: calc(100% - 96px);
+        left: 0px;
+        bottom: 0px;
+        padding: 0px 0px 16px 16px; }
+        @media (max-width: 757px) {
+          .container-photos .photos-column figure.photo-item a.photo-item-photographer {
+            opacity: 1; } }
+        .container-photos .photos-column figure.photo-item a.photo-item-photographer img {
+          width: 32px;
+          height: 32px;
+          border-radius: 30px; }
+        .container-photos .photos-column figure.photo-item a.photo-item-photographer span {
+          padding-left: 4px;
+          color: white;
+          font-weight: 500;
+          opacity: .8; }
+        .container-photos .photos-column figure.photo-item a.photo-item-photographer:hover span {
+          opacity: 1; }
+      .container-photos .photos-column figure.photo-item .photo-item-info {
+        opacity: 0;
+        transition: opacity .2s;
+        position: absolute;
+        width: 96px;
+        right: 0px;
+        bottom: 0px;
+        padding: 0px 16px 16px 0px;
+        font-size: 0px; }
+        @media (max-width: 757px) {
+          .container-photos .photos-column figure.photo-item .photo-item-info {
+            opacity: 1; } }
+        .container-photos .photos-column figure.photo-item .photo-item-info button {
+          border: 0px;
+          background-color: transparent;
+          padding: 0px;
+          margin: 0px 4px;
+          color: white;
+          outline: none;
+          font-size: 32px;
+          line-height: 32px; }
+      .container-photos .photos-column figure.photo-item:hover:before, .container-photos .photos-column figure.photo-item:hover .photo-item-photographer, .container-photos .photos-column figure.photo-item:hover .photo-item-info {
+        opacity: 1; }
+  .container-photos .spinner-border-wrap {
+    margin-top: 80px;
+    text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
