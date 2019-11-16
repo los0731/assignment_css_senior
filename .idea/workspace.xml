@@ -30,12 +30,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="209" />
+          <entry key="md" value="554" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="209" />
+          <entry key="Markdown" value="554" />
         </counts>
       </usages-collector>
     </session>
@@ -52,8 +52,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="243">
-                <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+              <first_editor relative-caret-position="216">
+                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor />
             </state>
@@ -132,12 +132,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573895765593</updated>
-      <workItem from="1573895769253" duration="526000" />
+      <workItem from="1573895769253" duration="1597000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="526000" />
+    <option name="totallyTimeSpent" value="1597000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="22" y="39" width="1680" height="1049" extended-state="0" />
@@ -174,8 +174,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="243">
-            <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <first_editor relative-caret-position="216">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
